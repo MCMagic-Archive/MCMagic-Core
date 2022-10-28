@@ -1,0 +1,62 @@
+name: MCMagicCore
+author: MCMagicDev
+version: 3.0.3
+description: MCMagic Core Plugin
+depend: [ProtocolLib]
+softdepend: [WorldGuard]
+main: us.mcmagic.mcmagiccore.MCMagicCore
+commands:
+  ach:
+    description: Achievement command
+    permission: arcade.bypass
+    permission-message: §4You do not have permission to use this command!
+  balance:
+    description: Default balance command
+    permission: arcade.bypass
+    permission-message: §4You do not have permission to use this command!
+    aliases: [bal]
+  audio:
+    description: Default audio command
+    permission: mcmagic.warp
+    permission-message: §4You do not have permission to use this command!
+    aliases: [as]
+  token:
+    description: Default token command
+    permission: mcmagic.coins
+    permission-message: §4You do not have permission to use this command!
+  mccore:
+    description: Default command
+    permission: arcade.bypass
+    permission-message: §4You do not have permission to use this command!
+  save:
+    description: Save all of the Worlds.
+    permission: arcade.bypass
+    permission-message: §4You do not have permission to use this command!
+  perm:
+    description: Default permission command
+    permission: mcmagic.permissions
+    permission-message: §4You do not have permission to use this command!
+  tweet:
+    description: Tweet using the @MCMagicInfo account!
+    permission: arcade.bypass
+    permission-message: §4You do not have permission to use this command!
+  test:
+    description: Test command
+    permission: arcade.bypass
+    permission-message: §4You do not have permission to use this command!
+  ot:
+    description: Shows online time
+    permission: mcmagic.warp
+    permission-message: §4You do not have permission to use this command!
+  safestop:
+    description: Stop server safely
+    permission: bukkit.command.stop
+    permission-message: §4You do not have permission to use this command!
+  midi:
+    description: Play MIDI Songs!
+    permission: arcade.bypass
+    permission-message: §4You do not have permission to use this command!
+  tagtoggle:
+    description: Toggle nametag visibility
+    permission: arcade.bypass
+    permission-message: §4You do not have permission to use this command!
